@@ -24,12 +24,12 @@ form {
   background-color: white;
   border: none;
   align-items: center;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 2px 2px 30px rgba(49, 48, 48, 0.545);
   position: absolute;
-  left: 50px;
-  right: 50px;
+  left: 40px;
+  right: 40px;
   top: 120px;
 }
 
@@ -41,13 +41,13 @@ form {
 .quality {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 
 .feilds,
 .contact {
   flex-basis: 50%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .f1,
@@ -68,7 +68,7 @@ form {
 .delivery,
 .value,
 .quality {
-  flex-direction: row;
+  flex-direction: column;
   padding: 10px;
 }
 
